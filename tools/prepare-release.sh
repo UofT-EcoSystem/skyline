@@ -51,7 +51,7 @@ RELEASE_NOTES=$(git log $(git describe --abbrev=0 --tags).. --merges --pretty=fo
 echo ""
 echo "Release Notes:"
 echo "$RELEASE_NOTES"
-gh pr create --title "Release $VERSION_TAG" --body "$RELEASE_NOTES"
+gh pr create --draft --title "Release $VERSION_TAG" --body "$RELEASE_NOTES"
 
 
 # echo ""

@@ -51,10 +51,10 @@ function check_repo() {
   INNPV_MAIN_HASH=$(git rev-parse main)
   INNPV_HASH=$(git rev-parse HEAD)
 
-  if [[ $INNPV_MAIN_HASH != $INNPV_HASH ]]; then
-    echo_red "ERROR: You must be on main when releasing."
-    exit 1
-  fi
+  # if [[ $INNPV_MAIN_HASH != $INNPV_HASH ]]; then
+  #   echo_red "ERROR: You must be on main when releasing."
+  #   exit 1
+  # fi
 
   INNPV_SHORT_HASH=$(git rev-parse --short HEAD)
 
