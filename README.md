@@ -1,6 +1,8 @@
 ![Skyline](https://raw.githubusercontent.com/skylineprof/skyline/master/assets/skyline-wordmark.png)
 [![License](https://img.shields.io/badge/license-Apache--2.0-green?style=flat)](https://github.com/UofT-EcoSystem/skyline/blob/main/LICENSE)
 
+**This repository is not being maintained.** Please see https://github.com/CentML/skyline
+
 Skyline is a tool to profile and debug the training performance of [PyTorch](https://pytorch.org) neural networks.
 
 - [Installation](#installation)
